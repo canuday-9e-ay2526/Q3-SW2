@@ -16,8 +16,7 @@
 </head>
 <body>
     <header class="navbar navbar-expand-sm navbar-dark bg-dark">
-    
-            <div class="container-fluid">
+      <div class="container-fluid">
               <a class="navbar-brand" href="javascript:void(0)">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -43,24 +42,23 @@
       <p>Enter your budget to find the right one!</p>
       <label class="form-label" for="budget"></label>
       <input type="number" class="form-control" id="phpbudget">
-    
+        
 
 
-    <div class="discount buttons float text-center">
-     <button class="btn btn-danger mt-3" type="button"onclick="buttonDiscount ()">Brand and Discount</button>
-      <button class="btn btn-danger mt-3" type="button"onclick="">Store Location</button>
+      <div class="discount buttons float text-center">
+      <button class="btn btn-danger mt-3" type="button" onclick="nameDiscount ()">Brand and Discount</button>
+      <div id="nameDiscount">
+        <br>
+      </div>
+
+     <button class="btn btn-danger mt-3" type="button"onclick="locationcontainer ()">Store Location</button>
+     <div id="locationcontainer">
+      <br>
+     </div>
       <button type="button" class="btn btn-danger mt-3 text-center" onclick="window.location.reload()">Refresh</button>
   </div>
   </div>
-    <div class="container2 bg-secondary rounded mt-5">
-      <h4>Recommended Brands</h4>
-      <button class="btn btn-danger mt-3">Acer</button>
-      <button class="btn btn-danger mt-3">Asus</button>
-      <button class="btn btn-danger mt-3">Lenovo</button>
-
-      <p class="text-muted">Elligable discount</p>
-
-    </div>
+    
   
   </main>
 
@@ -68,7 +66,7 @@
           <small>&copy; 2026 Tech.PC. All Rights Reserved.</small>
    </footer>
 
-   <script src="main.js"></script>
+   <script src=main.js></script>
 
 
 </body>
